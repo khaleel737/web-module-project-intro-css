@@ -44,7 +44,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     /* Header Section Style */
     nav {
         padding: 2%;
-
     }
 
     nav a {
@@ -54,8 +53,9 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         border-radius: 10px;
         text-align:center;
         color: white;
-
     }
+
+
     h1 {
         font-family: 'Chelsea Market', cursive;
         font-size: 4rem;
@@ -74,6 +74,11 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         font-size: 1.7rem;
     }
 
+    span {
+        font-weight: bold;
+        font-size: 1.85rem;
+    }
+
     .top {
         position: relative;
         margin: 0% 20%;
@@ -81,16 +86,35 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     .orange {
         background-color: #FF764E;
         margin-left: 10%;
+        transition: 0.7s;
+    }
+    
+    .orange:hover {
+        background-color: orange;
+        transition: 0.7s;
+
     }
 
     .blue {
         background-color: #5ED3EB;
         margin: 0 24%;
+        transition: 0.7s;
+    }
+
+    .blue:hover {
+        background-color: lightblue;
+        transition: 0.7s;
     }
 
     .yellow {
         background-color: #FFCD69;
         margin-right: 10%;
+        transition: 0.7s;
+    }
+
+    .yellow:hover {
+        background-color: yellow;
+        transition: 0.7s;
     }
 
     .left, .right {
