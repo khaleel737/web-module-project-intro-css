@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         margin: 0;
         padding: 0;
         max-width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
 
     html {
@@ -56,8 +56,27 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         color: white;
 
     }
+    h1 {
+        font-family: 'Chelsea Market', cursive;
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    h3 {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    p {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1.7rem;
+    }
+
     .top {
         position: relative;
+        margin: 0% 20%;
     }
     .orange {
         background-color: #FF764E;
@@ -84,12 +103,51 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 
     .left img {
         border-radius: 50%;
-        width: 80%;
+        width: 100%;
     }
 
     .right {
         width: 55%;
         margin-left: 5%;
         position:absolute;
-        top: 45%;
+        top: 25%;
+        text-align: center;
+    }
+
+    .middle-section {
+        background-color: #DDB9A3;
+        color: white;
+        margin: 5% 10%;
+        padding: 1% 2%;
+        text-align: center;
+    }
+
+    .fire {
+        text-align: center;
+        margin: 0% 40%;
+    }
+
+    .fire img{
+        width: 40%;
+    }
+
+    .truck {
+        text-align: center;
+        margin: 5% 40%;
+    }
+
+    .truck img {
+        width: 40%;
+    }
+
+    .footer-image {
+        background-image: url(assets/footer_img.jpg);
+        height: 40vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    footer {
+        background-color: #F9E7DC;
     }
